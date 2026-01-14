@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -129,15 +128,14 @@
   <h2>7. Changes to This Policy</h2>
   <p>We may update this Privacy Policy from time to time. Updates will be posted on this page with a revised effective date.</p>
 
-  <!-- Contact Section with Form -->
   <div class="card" id="contact">
     <h2>8. Contact Us</h2>
     <p class="note">Questions about this Privacy Policy or your data? Use the form below or email us at
-      mailto:deepreviewer.privacy@gmail.comdeepreviewer.privacy@gmail.com</a>.
+      <a href="mailto:deepreviewer.privacy@gmail.com">deepreviewer.privacy@gmail.com</a>.
     </p>
 
-    https://formspree.io/f/xvzzggnw
-      <!-- Accessible honeypot field (spam trap) -->
+    <form action="https://formspree.io/f/xvzzggnw" method="POST" id="contactForm">
+      
       <div class="hp" aria-hidden="true">
         <label for="company">Company</label>
         <input type="text" name="company" id="company" tabindex="-1" autocomplete="off">
@@ -158,11 +156,7 @@
         </div>
       </div>
 
-      <!-- Formspree recommends adding a subject and redirect/success if needed -->
       <input type="hidden" name="_subject" value="DeepReviewer Privacy Inquiry" />
-      <!-- Optional: Custom thank-you page -->
-      <!-- <input type="hidden" name="_next" value="https://YOUR-SITE/thanks.html"> -->
-
       <div class="actions">
         <button type="submit">Send Message</button>
         <span class="help">We’ll reply within 2–3 business days.</span>
@@ -171,12 +165,12 @@
       <div id="formStatus" class="alert hidden" role="status" aria-live="polite"></div>
       <noscript>
         <p class="note">JavaScript is disabled. You can email us directly at
-        mailto:deepreviewer.privacy@gmail.comdeepreviewer.privacy@gmail.com</a>.</p>
+        <a href="mailto:deepreviewer.privacy@gmail.com">deepreviewer.privacy@gmail.com</a>.</p>
       </noscript>
     </form>
   </div>
 
-  <footer>&copy; 2026 DeepReviewer. All rights reserved. | #contactContact</a></footer>
+  <footer>&copy; 2026 DeepReviewer. All rights reserved. | <a href="#contact">Contact</a></footer>
 
   <script>
     // Lightweight client-side validation + fetch submission
