@@ -189,10 +189,10 @@
       form.addEventListener('submit', async (e) => {
         clearStatus();
         // Simple honeypot check
-        if (document.getElementById('company').value.trim() !== '') {
+        /* if (document.getElementById('company').value.trim() !== '') {
           e.preventDefault();
           return; // Likely bot
-        }
+        } */
 
         // Basic client validation
         if (!form.checkValidity()){
